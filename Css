@@ -1,0 +1,91 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #ffdde1, #ee9ca7);
+  color: #333;
+  text-align: center;
+}
+
+/* Header */
+header {
+  padding: 50px 20px;
+  background: #ff6f91;
+  color: white;
+  animation: fadeIn 2s ease-in-out;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #ff6f91;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: white;
+  margin: 10px auto;
+  padding: 10px;
+  width: 60%;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Project Cards */
+.card {
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  background: #ff6f91;
+  color: white;
+}
+
+/* Animations */
+.fade-in {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.slide-in {
+  animation: slideIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateY(50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
