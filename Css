@@ -3,16 +3,15 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, #ffdde1, #ee9ca7);
-  color: #333;
+  background: slateblue;
   text-align: center;
 }
 
 /* Header */
 header {
   padding: 50px 20px;
-  background: #ff6f91;
-  color: white;
+  background: lightblue;
+  color: slateblue;
   animation: fadeIn 2s ease-in-out;
 }
 
@@ -32,7 +31,7 @@ section {
 
 h2 {
   margin-bottom: 20px;
-  color: #ff6f91;
+  color: slateblue;
 }
 
 ul {
@@ -41,7 +40,7 @@ ul {
 }
 
 ul li {
-  background: white;
+  background: lightblue;
   margin: 10px auto;
   padding: 10px;
   width: 60%;
@@ -54,7 +53,7 @@ ul li {
   display: inline-block;
   margin: 10px;
   padding: 20px;
-  background: white;
+  background: lightblue;
   border-radius: 12px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
   transition: transform 0.3s;
@@ -67,8 +66,8 @@ ul li {
 /* Footer */
 footer {
   padding: 20px;
-  background: #ff6f91;
-  color: white;
+  background: lightblue;
+  color: slateblue;
 }
 
 /* Animations */
